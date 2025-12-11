@@ -1,0 +1,107 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+
+
+  <PropertyGroup>
+
+    <TargetFramework>net8.0-windows10.0.22000.0</TargetFramework>
+
+    <TargetPlatformMinVersion>10.0.17763.0</TargetPlatformMinVersion>
+
+    <RootNamespace>uchat</RootNamespace>
+
+    <AssemblyName>uchat</AssemblyName>
+
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+
+    <Platforms>x64</Platforms>
+
+    <RuntimeIdentifiers>win-x64</RuntimeIdentifiers>
+
+    <Nullable>enable</Nullable>
+
+    <ImplicitUsings>enable</ImplicitUsings>
+
+    <OutputType>Exe</OutputType>
+
+    <SupportedOSPlatformVersion>10.0.22000.0</SupportedOSPlatformVersion>
+
+    <!-- All dependencies are included via NuGet packages below -->
+
+    <WindowsAppSdkBootstrapInitialize>true</WindowsAppSdkBootstrapInitialize>
+
+    <ApplicationIcon>uchat_logo.ico</ApplicationIcon>
+
+  </PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)' == 'Debug'">
+		<WindowsPackageType>None</WindowsPackageType>
+		
+		<PublishReadyToRun>false</PublishReadyToRun>
+		<PublishTrimmed>false</PublishTrimmed>
+	</PropertyGroup>
+
+  <ItemGroup>
+
+    <None Remove="CreateGroupDialog.xaml" />
+
+  </ItemGroup>
+
+
+
+  <ItemGroup>
+
+    <PackageReference Include="CommunityToolkit.WinUI.Controls.ImageCropper" Version="8.2.250402" />
+
+    <PackageReference Include="CommunityToolkit.WinUI.Notifications" Version="7.1.2" />
+
+    <PackageReference Include="Microsoft.WindowsAppSDK" Version="1.8.251106002" />
+
+    <PackageReference Include="Microsoft.Data.Sqlite" Version="8.0.0" />
+
+    <PackageReference Include="System.Drawing.Common" Version="10.0.1" />
+
+    <PackageReference Include="System.Text.Json" Version="9.0.0" />
+
+    <PackageReference Include="System.Windows.Extensions" Version="8.0.0" />
+
+  </ItemGroup>
+
+
+
+  <ItemGroup>
+
+    <Content Include="uchat_logo.ico" />
+
+    <Content Include="uchat_logo.png" />
+
+  </ItemGroup>
+
+
+
+  <ItemGroup>
+
+    <Page Update="GroupProfileDialog.xaml">
+
+      <Generator>MSBuild:Compile</Generator>
+
+    </Page>
+
+  </ItemGroup>
+
+
+
+  <ItemGroup>
+
+    <Page Update="CreateGroupDialog.xaml">
+
+      <Generator>MSBuild:Compile</Generator>
+
+    </Page>
+
+  </ItemGroup>
+
+
+
+</Project>
+

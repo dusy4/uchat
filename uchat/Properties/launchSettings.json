@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "uchat (Unpackaged)": {
+      "commandName": "Project",
+      "commandLineArgs": "26.164.89.28 1337",
+      "nativeDebugging": true
+    },
+    "uchat (Packaged)": {
+      "commandName": "MsixPackage"
+    }
+  }
+}

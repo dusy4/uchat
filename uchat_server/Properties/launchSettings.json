@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "uchat_server": {
+      "commandName": "Project",
+      "commandLineArgs": "1337"
+    }
+  }
+}
