@@ -10,6 +10,12 @@ A client-server messaging application built with C# following the Track C# chall
 
 ---
 
+## 📋 Documentation
+
+- [📄 Requirements (PDF)](reqs.pdf)
+
+---
+
 ## 📸 Screenshots
 
 | Server (left) · Client log (right) |
