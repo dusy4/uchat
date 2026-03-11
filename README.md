@@ -2,6 +2,8 @@
 
 A client-server messaging application built with C# following the Track C# challenge requirements.
 
+[![Watch the video](https://img.youtube.com/vi/tkkL7y9ud24/maxresdefault.jpg)](https://www.youtube.com/watch?v=tkkL7y9ud24&t=4778s)
+
 ## Project Structure
 
 - `uchat_server/` - Server application (console)
