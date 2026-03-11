@@ -2,7 +2,7 @@
 
 A client-server messaging application built with C# following the Track C# challenge requirements.
 
-**WATCH THE PRESENTATION + DEMO**
+### **WATCH THE PRESENTATION + DEMO** RECORDING ON YOUTUBE
 
 [![Watch the video](https://img.youtube.com/vi/tkkL7y9ud24/maxresdefault.jpg)](https://www.youtube.com/watch?v=tkkL7y9ud24&t=4778s)
 
