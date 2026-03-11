@@ -2,9 +2,23 @@
 
 A client-server messaging application built with C# following the Track C# challenge requirements.
 
-### **WATCH THE PRESENTATION + DEMO** RECORDING ON YOUTUBE (click on the image)
+## 📹 Demo & Presentation
+
+> Click the thumbnail to watch the full recording on YouTube
 
 [![Watch the video](https://img.youtube.com/vi/tkkL7y9ud24/maxresdefault.jpg)](https://www.youtube.com/watch?v=tkkL7y9ud24&t=4778s)
+
+---
+
+## 📸 Screenshots
+
+| Server (left) · Client log (right) |
+|---|
+| ![Screenshot](1__screenshot.png) |
+
+| Server log console + launched client |
+|---|
+| ![Screenshot](2__screenshot.png) |
 
 ## Project Structure
 
